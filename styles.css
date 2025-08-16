@@ -1,0 +1,42 @@
+body{
+  background-color : #778DA9;
+}
+h1 {
+  color: #0d1b2a;
+  text-align: center;
+}
+#btn{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-evenly;
+
+}
+button{
+  margin-top:50px;
+  height:200px;
+  width:200px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#rockbtn{
+  background-image: url("rock.jpg");
+}
+#paperbtn{
+  background-image: url("paper.jpg");
+}
+#scissorbtn{
+  background-image:url("scissor.png");
+
+}
+.result-wrapper{
+  display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+  }

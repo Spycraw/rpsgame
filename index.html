@@ -4,15 +4,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document1</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <h1>Rock Paper Scissor</h1>
-  <button onclick="choose('Rock')">Rock</button>
-  <button onclick="choose('Paper')">Paper</button>
-  <button onclick="choose('Scissor')">Scissor</button>
-  <div id="result"></div>
+  <div id="btn">
+  <button id="rockbtn" onclick="choose('Rock')"></button>
+  <button id="paperbtn" onclick="choose('Paper')"></button>
+  <button id="scissorbtn" onclick="choose('Scissor')"></button>
+</div>
+<div class="result-wrapper">
+<div id="result"></div>
   <div id="opponent"></div>
   <div id="output"></div>
+</div>
  <script src="scripts.js"></script>
 
 </body>
